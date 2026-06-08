@@ -1,0 +1,13 @@
+﻿Source: Student usage of Q&A forums in CS courses
+URL: https://arxiv.org/abs/2305.18717
+
+Notes:
+This research discusses how students use Q&A forums in a CS1 course. It found that many students do not actively post or read forum discussions, even though forums are meant to support class engagement and question asking. Some students avoid visible participation because they feel uncomfortable, fear looking uninformed, or worry about being seen by classmates.
+
+Why this matters for the unofficial guide:
+This source helps explain why unofficial or searchable student knowledge can be useful. If students are uncomfortable asking questions publicly, a searchable guide can help them find answers without needing to post in a visible forum.
+
+Possible questions this source can help answer:
+- Why might students avoid asking questions in class forums?
+- What problems exist with course Q&A forums?
+- How can searchable student knowledge reduce confusion?

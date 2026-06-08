@@ -1,0 +1,13 @@
+﻿Source: MOOC discussion forum research
+URL: https://arxiv.org/abs/1904.07307
+
+Notes:
+This research discusses how MOOC discussion forums contain student questions, answers, and comments related to course lecture videos and readings. The paper studies how forum posts can be connected back to course materials using topic analysis.
+
+Why this matters for the unofficial guide:
+This source is useful because it shows that student discussions are often connected to specific course content. Retrieval can help connect a user question to the most relevant discussion or document section.
+
+Possible questions this source can help answer:
+- Why are student discussion posts useful for learning?
+- How can course forum posts connect to specific course materials?
+- Why does retrieval matter for organizing student-generated knowledge?

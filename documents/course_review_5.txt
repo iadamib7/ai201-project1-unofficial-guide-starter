@@ -1,0 +1,13 @@
+﻿Source: Student course review sentiment analysis paper
+URL: https://arxiv.org/abs/2301.06173
+
+Notes:
+This paper discusses using machine learning to organize student course review comments. Student course evaluations often include open-ended comments that contain opinions about course content, teaching, and learning experience. The paper focuses on using sentiment analysis to summarize unstructured student feedback into more useful reports.
+
+Why this matters for the unofficial guide:
+This source supports the idea that student feedback is often unstructured and difficult to review manually. A retrieval-based system can help organize and answer questions from student-written feedback.
+
+Possible questions this source can help answer:
+- Why are student course comments hard to use directly?
+- How can AI help summarize student feedback?
+- What kinds of information appear in course review comments?
