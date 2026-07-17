@@ -1,7 +1,7 @@
 ﻿from src.ingest import load_documents
 
 CHUNK_SIZE = 800
-OVERLAP = 120
+OVERLAP = 150
 
 def split_into_paragraphs(text: str):
     paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]

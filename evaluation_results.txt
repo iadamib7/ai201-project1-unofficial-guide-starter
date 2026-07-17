@@ -1,0 +1,162 @@
+﻿==========================================================================================
+QUESTION 1: What do students say is the most useful thing about the course or resource?
+
+ANSWER:
+I don't have enough information in the provided documents to answer that.
+
+SOURCES:
+- course_feedback_10.txt | chunk 1
+- course_review_3.txt | chunk 1
+- resource_feedback_8.txt | chunk 1
+- resource_feedback_9.txt | chunk 0
+- student_advice_7.txt | chunk 1
+
+RETRIEVED CHUNKS:
+- course_feedback_10.txt | chunk 1 | distance 0.8053
+ssions are often connected to specific course content. Retrieval can help connect a user question to the most relevant discussion or document section. Possible questions this source can help answer:
+- Why are student discussion posts useful for learning?
+- How can course forum posts connect to specific course materials?
+- Why does retrieval matter for organizing student-generated knowledge?
+
+- resource_feedback_8.txt | chunk 1 | distance 0.8872
+al information. It is useful for questions about why students may prefer anonymous or student-centered resources when they feel stressed or uncertain. Possible questions this source can help answer:
+- Why might students prefer anonymous support?
+- What role can peer support play in college?
+- How can unofficial student resources help with stress or confusion?
+
+- course_review_3.txt | chunk 1 | distance 0.9389
+zing course knowledge for other students. It also shows that course reviews can supplement official course descriptions with real student experiences. Possible questions this source can help answer:
+- Why are student course reviews useful?
+- How can student experiences help future students choose courses?
+- What is missing from official course listings?
+
+- resource_feedback_9.txt | chunk 0 | distance 0.9600
+Source: Ask Foy at Auburn University
+URL: https://en.wikipedia.org/wiki/Ask_Foy Notes:
+Ask Foy is an information service at Auburn University. It was originally designed as a resource for Auburn students looking for course information, grades, or campus services. Student operators help answer questions from callers or visitors. Why this matters for the unofficial guide:
+This source shows that students often need help finding practical information about campus life and courses. A searchable guide can serve a similar purpose by helping students locate answers quickly. Possible questions this source can help answer:
+- Why do students need centralized information services?
+- What kinds of questions do students ask about campus life?
+- How can a guide reduce confusion about resources?
+
+- student_advice_7.txt | chunk 1 | distance 0.9788
+resources. This source is useful for questions about what support resources students can use when they are struggling with writing-heavy assignments. Possible questions this source can help answer:
+- What resources can help students with writing assignments?
+- What does a writing center usually provide?
+- Why might students recommend visiting a writing center early?
+
+==========================================================================================
+QUESTION 2: What problems or complaints do students mention most often?
+
+ANSWER:
+I don't have enough information in the provided documents to answer that.
+
+SOURCES:
+No relevant sources found.
+
+RETRIEVED CHUNKS:
+No relevant chunks found.
+==========================================================================================
+QUESTION 3: What advice do students give to someone taking the course or using the resource?
+
+ANSWER:
+I don't have enough information in the provided documents to answer that. 
+
+The provided context does not contain direct advice from students to someone taking the course or using the resource. The documents provide information on the usefulness of student-centered resources, course reviews, and support services, but do not explicitly state advice from students.
+
+SOURCES:
+- course_feedback_10.txt | chunk 1
+- course_review_3.txt | chunk 1
+- resource_feedback_8.txt | chunk 1
+- resource_feedback_9.txt | chunk 0
+- student_advice_7.txt | chunk 1
+
+RETRIEVED CHUNKS:
+- resource_feedback_8.txt | chunk 1 | distance 1.0016
+al information. It is useful for questions about why students may prefer anonymous or student-centered resources when they feel stressed or uncertain. Possible questions this source can help answer:
+- Why might students prefer anonymous support?
+- What role can peer support play in college?
+- How can unofficial student resources help with stress or confusion?
+
+- course_review_3.txt | chunk 1 | distance 1.0116
+zing course knowledge for other students. It also shows that course reviews can supplement official course descriptions with real student experiences. Possible questions this source can help answer:
+- Why are student course reviews useful?
+- How can student experiences help future students choose courses?
+- What is missing from official course listings?
+
+- resource_feedback_9.txt | chunk 0 | distance 1.0356
+Source: Ask Foy at Auburn University
+URL: https://en.wikipedia.org/wiki/Ask_Foy Notes:
+Ask Foy is an information service at Auburn University. It was originally designed as a resource for Auburn students looking for course information, grades, or campus services. Student operators help answer questions from callers or visitors. Why this matters for the unofficial guide:
+This source shows that students often need help finding practical information about campus life and courses. A searchable guide can serve a similar purpose by helping students locate answers quickly. Possible questions this source can help answer:
+- Why do students need centralized information services?
+- What kinds of questions do students ask about campus life?
+- How can a guide reduce confusion about resources?
+
+- student_advice_7.txt | chunk 1 | distance 1.0693
+resources. This source is useful for questions about what support resources students can use when they are struggling with writing-heavy assignments. Possible questions this source can help answer:
+- What resources can help students with writing assignments?
+- What does a writing center usually provide?
+- Why might students recommend visiting a writing center early?
+
+- course_feedback_10.txt | chunk 1 | distance 1.0944
+ssions are often connected to specific course content. Retrieval can help connect a user question to the most relevant discussion or document section. Possible questions this source can help answer:
+- Why are student discussion posts useful for learning?
+- How can course forum posts connect to specific course materials?
+- Why does retrieval matter for organizing student-generated knowledge?
+
+==========================================================================================
+QUESTION 4: What positive feedback do students give?
+
+ANSWER:
+I don't have enough information in the provided documents to answer that.
+
+SOURCES:
+- course_review_2.txt | chunk 1
+- course_review_3.txt | chunk 0
+- course_review_3.txt | chunk 1
+- course_review_5.txt | chunk 0
+- course_review_5.txt | chunk 1
+
+RETRIEVED CHUNKS:
+- course_review_5.txt | chunk 1 | distance 1.0399
+is often unstructured and difficult to review manually. A retrieval-based system can help organize and answer questions from student-written feedback. Possible questions this source can help answer:
+- Why are student course comments hard to use directly?
+- How can AI help summarize student feedback?
+- What kinds of information appear in course review comments?
+
+- course_review_5.txt | chunk 0 | distance 1.0606
+Source: Student course review sentiment analysis paper
+URL: https://arxiv.org/abs/2301.06173 Notes:
+This paper discusses using machine learning to organize student course review comments. Student course evaluations often include open-ended comments that contain opinions about course content, teaching, and learning experience. The paper focuses on using sentiment analysis to summarize unstructured student feedback into more useful reports. Why this matters for the unofficial guide:
+This source supports the idea that student feedback is often unstructured and difficult to review manually. A retrieval-based system can help organize and answer questions from student-written feedback.
+
+- course_review_3.txt | chunk 1 | distance 1.0865
+zing course knowledge for other students. It also shows that course reviews can supplement official course descriptions with real student experiences. Possible questions this source can help answer:
+- Why are student course reviews useful?
+- How can student experiences help future students choose courses?
+- What is missing from official course listings?
+
+- course_review_3.txt | chunk 0 | distance 1.1520
+Source: Critical Review at Brown University
+URL: https://en.wikipedia.org/wiki/Critical_Review_%28Brown_University%29 Notes:
+The Critical Review is a student-run publication at Brown University that reviews course offerings. Reviews are written from student course evaluation questionnaires. The purpose is to help students make informed course choices and to give instructors feedback based on student experiences. Why this matters for the unofficial guide:
+This source is directly related to the project idea because it shows an example of students organizing course knowledge for other students. It also shows that course reviews can supplement official course descriptions with real student experiences.
+
+- course_review_2.txt | chunk 1 | distance 1.1589
+mal student reviews rather than only official course catalogs. It is useful background for questions about why students want unofficial course advice. Possible questions this source can help answer:
+- Why do students use professor review websites?
+- What kinds of information do students look for before choosing a class?
+- What are the limits of relying on anonymous professor reviews?
+
+==========================================================================================
+QUESTION 5: Which professor should I take next semester?
+
+ANSWER:
+I don't have enough information in the provided documents to answer that.
+
+SOURCES:
+No relevant sources found.
+
+RETRIEVED CHUNKS:
+No relevant chunks found.

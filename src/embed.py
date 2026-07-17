@@ -1,7 +1,7 @@
 ﻿import chromadb
 
 from src.chunk import build_chunks
-from src.simple_embeddings import embed_text
+from src.simple_embeddings import embed_texts
 
 
 DB_DIR = "chroma_db"
@@ -15,7 +15,7 @@ def build_vector_store():
         raise ValueError("No chunks found. Add .txt files to the documents folder first.")
 
     texts = [chunk["text"] for chunk in chunks]
-    embeddings = [embed_text(text) for text in texts]
+    embeddings = embed_texts(texts)
 
     client = chromadb.PersistentClient(path=DB_DIR)
 

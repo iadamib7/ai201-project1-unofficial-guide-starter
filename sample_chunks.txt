@@ -1,0 +1,36 @@
+﻿Total chunks: 18
+--------------------------------------------------------------------------------
+Source: course_feedback_10.txt
+Chunk ID: 0
+∩╗┐Source: MOOC discussion forum research
+URL: https://arxiv.org/abs/1904.07307 Notes:
+This research discusses how MOOC discussion forums contain student questions, answers, and comments related to course lecture videos and readings. The paper studies how forum posts can be connected back to course materials using topic analysis. Why this matters for the unofficial guide:
+This source is useful because it shows that student discussions are often connected to specific course content. Retrieval can help connect a user question to the most relevant discussion or document section.
+--------------------------------------------------------------------------------
+Source: course_feedback_10.txt
+Chunk ID: 1
+ssions are often connected to specific course content. Retrieval can help connect a user question to the most relevant discussion or document section. Possible questions this source can help answer:
+- Why are student discussion posts useful for learning?
+- How can course forum posts connect to specific course materials?
+- Why does retrieval matter for organizing student-generated knowledge?
+--------------------------------------------------------------------------------
+Source: course_review_2.txt
+Chunk ID: 0
+∩╗┐Source: Rate My Professors overview
+URL: https://en.wikipedia.org/wiki/Rate_My_Professors Notes:
+Rate My Professors is a public review website where students can rate professors and campuses. Students commonly use this kind of site when deciding which classes or professors to take. Reviews may discuss professor quality, difficulty, whether students would take the professor again, attendance expectations, textbook use, and short written comments. Why this matters for the unofficial guide:
+This source shows that professor choice is often influenced by informal student reviews rather than only official course catalogs. It is useful background for questions about why students want unofficial course advice.
+--------------------------------------------------------------------------------
+Source: course_review_2.txt
+Chunk ID: 1
+mal student reviews rather than only official course catalogs. It is useful background for questions about why students want unofficial course advice. Possible questions this source can help answer:
+- Why do students use professor review websites?
+- What kinds of information do students look for before choosing a class?
+- What are the limits of relying on anonymous professor reviews?
+--------------------------------------------------------------------------------
+Source: course_review_3.txt
+Chunk ID: 0
+∩╗┐Source: Critical Review at Brown University
+URL: https://en.wikipedia.org/wiki/Critical_Review_%28Brown_University%29 Notes:
+The Critical Review is a student-run publication at Brown University that reviews course offerings. Reviews are written from student course evaluation questionnaires. The purpose is to help students make informed course choices and to give instructors feedback based on student experiences. Why this matters for the unofficial guide:
+This source is directly related to the project idea because it shows an example of students organizing course knowledge for other students. It also shows that course reviews can supplement official course descriptions with real student experiences.

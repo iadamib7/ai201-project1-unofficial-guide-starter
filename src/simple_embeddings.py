@@ -1,33 +1,54 @@
-﻿import hashlib
-import math
-import re
+﻿from functools import lru_cache
+
+from sentence_transformers import SentenceTransformer
 
 
-EMBEDDING_DIM = 384
+MODEL_NAME = "all-MiniLM-L6-v2"
 
 
-def tokenize(text: str):
-    return re.findall(r"[a-zA-Z0-9]+", text.lower())
+@lru_cache(maxsize=1)
+def get_embedding_model() -> SentenceTransformer:
+    """Load and cache the semantic embedding model."""
+    return SentenceTransformer(MODEL_NAME)
 
 
-def embed_text(text: str):
+def embed_text(text: str) -> list[float]:
     """
-    Simple local hash-based embedding.
+    Convert text into a semantic embedding using all-MiniLM-L6-v2.
 
-    This avoids sentence-transformers because some Windows systems block
-    scikit-learn DLL files used by that package.
+    Args:
+        text: The text to embed.
+
+    Returns:
+        A normalized 384-dimensional embedding vector.
     """
-    vector = [0.0] * EMBEDDING_DIM
-    tokens = tokenize(text)
+    if not text or not text.strip():
+        raise ValueError("Cannot embed empty text")
 
-    for token in tokens:
-        digest = hashlib.md5(token.encode("utf-8")).hexdigest()
-        index = int(digest, 16) % EMBEDDING_DIM
-        vector[index] += 1.0
+    model = get_embedding_model()
+    embedding = model.encode(
+        text,
+        normalize_embeddings=True,
+        convert_to_numpy=True,
+    )
+    return embedding.tolist()
 
-    norm = math.sqrt(sum(value * value for value in vector))
 
-    if norm == 0:
-        return vector
+def embed_texts(texts: list[str]) -> list[list[float]]:
+    """
+    Convert multiple texts into semantic embeddings efficiently.
+    """
+    if not texts:
+        return []
 
-    return [value / norm for value in vector]
+    if any(not text or not text.strip() for text in texts):
+        raise ValueError("Cannot embed empty text")
+
+    model = get_embedding_model()
+    embeddings = model.encode(
+        texts,
+        normalize_embeddings=True,
+        convert_to_numpy=True,
+        show_progress_bar=True,
+    )
+    return embeddings.tolist()
